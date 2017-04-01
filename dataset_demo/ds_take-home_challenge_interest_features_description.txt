@@ -1,0 +1,4 @@
+Fields
+
+uid			unique user identifier
+other fields		Content categories of websites the user visited. The frequency values are the sum over the individual websites' visit frequencies in that category over a week. The recency values are the minium recency of all websites in the category. A recency of 0 means that the category was last visited on the last day of the weekly aggregate. Therefore maximum recency is 6. No visit is '' / NaN in both cases.
