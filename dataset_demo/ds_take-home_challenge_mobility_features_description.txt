@@ -1,5 +1,0 @@
-Fields
-
-uid			unique user identifier
-movement_activity_*	Features representing active movement like distance covered, number of trips taken, etc. Usually a higher value refers to higher movement activity.
-stationarity_*		Features representing the user's stationarity. A higher value refers to an increased stationarity.

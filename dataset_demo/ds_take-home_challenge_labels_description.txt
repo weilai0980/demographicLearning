@@ -1,7 +1,0 @@
-Fields
-
-
-uid			unique user identifier
-age_bucket		age range the user belongs to. 'na' if unknown (and to be predicted).
-unknown_label		binary feature with unknown semantic but related to a temporarily stable user trait.
-
