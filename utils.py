@@ -25,13 +25,12 @@ def y_distribution_plot( dta, valset ):
     for i in range(len(valset)):
         cnt[i]= cnt[i]*1.0/tot_cnt
 
-    label_set= ['18-24','25-34','35-44','45-54','55-64','65-74','75-84','85+']
     fig = plt.figure()
     plt.bar(y_pos, cnt, align='center', alpha=0.5)
-    plt.xticks(y_pos, label_set, rotation=70)
-    plt.ylim([0,0.3])
-    plt.ylabel('% of data instances w.r.t. \n each age label')
-    plt.xlabel('Age labels')
-# plt.title('Age label')
-#     fig.savefig('./results/classDis.jpg', format='jpg', bbox_inches='tight')
+    plt.xticks(y_pos, valset, rotation=70)
+#   plt.ylim([0,0.3])
+    plt.ylabel('% of data instances w.r.t. \n each label')
+    plt.xlabel('Labels')
+#   plt.title('Age label')
+#   fig.savefig('./results/classDis.jpg', format='jpg', bbox_inches='tight')
     
